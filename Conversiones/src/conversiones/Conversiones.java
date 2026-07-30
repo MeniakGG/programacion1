@@ -4,7 +4,7 @@
  */
 package conversiones;
 
-import java.util.Scanner; //Lama a librería Scanner
+import java.util.Scanner; //importa librería para utilizar Scanner
 
 /**
  *
