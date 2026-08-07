@@ -67,5 +67,6 @@ public class Conversiones {
         celsius =  (farenheit -32) * 5/9; //Operacion matematica
         System.out.printf("%.2f Farenheit equivale a %.2f grados celsius",farenheit,celsius);
         System.out.println("");
+        System.out.println("");
     }
 }
