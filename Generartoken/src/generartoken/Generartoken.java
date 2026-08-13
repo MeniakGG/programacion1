@@ -68,8 +68,8 @@ Random RD = new Random();
         // Print Resultado
         System.out.println("Registro Correcto");
         
-        while(token.length()<12){
-            tipocaracter = RD.nextInt(2);
+        while(token.length()<12){  //Vamos a generar un token
+            tipocaracter = RD.nextInt(2); //La librería random genera numeros o signos en codigo ASCII
             if (tipocaracter == 0){
                 numerotoken = RD.nextInt(10);
                 token = token + numerotoken;
